@@ -1,0 +1,3 @@
+[submodule "napari-deeplabcut"]
+	path = napari-deeplabcut
+	url = https://github.com/Samineni-Lab/napari-deeplabcut.git
