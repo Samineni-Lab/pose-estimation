@@ -23,3 +23,4 @@ from deeplabcut.gui.tabs.refine_tracklets import RefineTracklets
 from deeplabcut.gui.tabs.train_network import TrainNetwork
 from deeplabcut.gui.tabs.unsupervised_id_tracking import UnsupervizedIdTracking
 from deeplabcut.gui.tabs.video_editor import VideoEditor
+from deeplabcut.gui.tabs.calibrate import Calibrate

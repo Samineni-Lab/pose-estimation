@@ -37,3 +37,5 @@ class DLCParams:
     OUTLIER_EXTRACTION_ALGORITHMS = ["jump", "fitting", "uncertain", "manual"]
 
     TRACKERS = ["ellipse", "box", "skeleton"]
+
+    CALIBRATION_BOARDS = ["ChArUco", "Checkerboard"]

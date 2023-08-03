@@ -508,6 +508,9 @@ class MainWindow(QMainWindow):
         self.video_editor = VideoEditor(
             root=self, parent=None, h1_description="DeepLabCut - Optional Video Editor"
         )
+        self.calibrate = Calibrate(
+            root=self, parent=None, h1_description="Anipose - Calibrate Cameras for 3D Tracking"
+        )
 
         self.tab_widget.addTab(self.manage_project, "Manage project")
         self.tab_widget.addTab(self.extract_frames, "Extract frames")
@@ -519,6 +522,7 @@ class MainWindow(QMainWindow):
         self.tab_widget.addTab(
             self.unsupervised_id_tracking, "Unsupervised ID Tracking (*)"
         )
+        self.tab_widget.addTab(self.calibrate, "Calibrate")
         self.tab_widget.addTab(self.create_videos, "Create videos")
         self.tab_widget.addTab(
             self.extract_outlier_frames, "Extract outlier frames (*)"
